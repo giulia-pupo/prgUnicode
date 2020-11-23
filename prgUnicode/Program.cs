@@ -14,9 +14,10 @@ namespace prgUnicode
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine(unicodeString);
             Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("Inserisci una frase:");
-            Console.ReadLine();
+            //Console.WriteLine();
+            //Console.WriteLine("Inserisci una frase:");
+            //Console.ReadLine();
+            //quest'ultimo comando è necessario per far scrivere a console una frase.
         }
     }
 }
