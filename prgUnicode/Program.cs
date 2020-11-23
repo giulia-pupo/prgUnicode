@@ -14,6 +14,9 @@ namespace prgUnicode
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine(unicodeString);
             Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Inserisci una frase:");
+            Console.ReadLine();
         }
     }
 }
